@@ -46,10 +46,10 @@ return array(
 		),
 		*/
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=yiitest',
+			'connectionString' => 'mysql:host=localhost;dbname=blog',
 			'emulatePrepare' => true,
-			'username' => 'yiitest',
-			'password' => 'yiitest',
+			'username' => 'ichikawa',
+			'password' => 'hogehoge',
 			'charset' => 'utf8',
 		),
 		'errorHandler'=>array(

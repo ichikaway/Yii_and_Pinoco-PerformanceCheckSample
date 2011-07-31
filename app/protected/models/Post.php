@@ -26,7 +26,7 @@ class Post extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'tbl_post';
+		return 'posts';
 	}
 
 	/**
