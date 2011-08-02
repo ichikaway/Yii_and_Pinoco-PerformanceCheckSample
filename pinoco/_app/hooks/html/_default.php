@@ -1,6 +1,6 @@
 <?php
 $this->post = $this->db->prepare(
-    'SELECT * FROM tbl_post WHERE id=?;'
+    'SELECT * FROM posts WHERE id=?;'
 )->query($this->pathargs[0])->fetchOne();
 
 if($this->post) {
@@ -9,4 +9,3 @@ if($this->post) {
 else {
     $this->notfound();
 }
-
